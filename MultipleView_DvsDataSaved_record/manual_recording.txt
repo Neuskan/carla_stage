@@ -1,0 +1,828 @@
+Version: 1
+Map: Town10HD_Opt
+Date: 06/01/22 21:56:40
+
+Frame 1 at 0 seconds
+ Create 1: spectator (0) at (-17219.7, 18385.9, 2763.81)
+ Create 2: traffic.stop (4) at (5745, 6115, 15)
+ Create 3: traffic.stop (4) at (2610, 7515, 15)
+ Create 4: traffic.stop (4) at (3535, 5360, 15)
+ Create 5: traffic.yield (4) at (4960, 3850, 15)
+ Create 6: traffic.unknown (4) at (4315, 6645, 0)
+ Create 7: traffic.unknown (4) at (4404.62, 3779.89, 0)
+ Create 8: traffic.unknown (4) at (-2815, 6602.97, 0)
+ Create 9: traffic.traffic_light (3) at (-4617.16, -7355.66, 25.4254)
+ Create 10: traffic.traffic_light (3) at (-3444.92, -5102.05, 25.4255)
+ Create 11: traffic.traffic_light (3) at (11445.2, 2119.6, 25.42)
+ Create 12: traffic.traffic_light (3) at (8979.19, 2092.21, 25.42)
+ Create 13: traffic.traffic_light (3) at (-3193.08, 2030.2, 25.4254)
+ Create 14: traffic.traffic_light (3) at (-6426.42, 706.331, 25.4254)
+ Create 15: traffic.traffic_light (3) at (-6235.21, 2019.69, 25.4254)
+ Create 16: traffic.traffic_light (3) at (-9492.82, 2033.48, 25.4256)
+ Create 17: traffic.traffic_light (3) at (-5924.23, -5149.84, 25.4254)
+ Create 18: traffic.traffic_light (3) at (-11923.8, 1900.45, 25.4253)
+ Create 19: traffic.traffic_light (3) at (-5871.54, 14582.5, 25.4188)
+ Create 20: traffic.traffic_light (3) at (-6209.93, 12375.6, 28.3086)
+ Create 21: traffic.traffic_light (3) at (-3163.64, 3358.93, 25.4254)
+ Create 22: traffic.traffic_light (3) at (-11923, 509.315, 26.277)
+ Create 23: traffic.traffic_light (3) at (11545, 3504.49, 22.2726)
+ Create 24: vehicle.mercedes.coupe_2020 (1) at (-50.5566, 13118.7, -0.139299)
+  role_name = hero
+  color = 73,0,0
+  sticky_control = true
+  object_type = 
+  generation = 2
+  number_of_wheels = 4
+ Create 25: sensor.other.collision (5) at (-50.5566, 13118.7, -0.139299)
+  role_name = front
+ Create 26: sensor.other.lane_invasion (5) at (-50.5566, 13118.7, -0.139299)
+  role_name = front
+ Create 27: sensor.other.gnss (5) at (-150.48, 13122.6, 279.861)
+  role_name = default
+  noise_lon_bias = 0.0
+  sensor_tick = 0.0
+  noise_seed = 0
+  noise_lat_stddev = 0.0
+  noise_lat_bias = 0.0
+  noise_lon_stddev = 0.0
+  noise_alt_stddev = 0.0
+  noise_alt_bias = 0.0
+ Create 28: sensor.other.imu (5) at (-50.5566, 13118.7, -0.139299)
+  noise_gyro_stddev_x = 0.0
+  role_name = default
+  sensor_tick = 0.0
+  noise_seed = 0
+  noise_accel_stddev_x = 0.0
+  noise_gyro_stddev_z = 0.0
+  noise_accel_stddev_y = 0.0
+  noise_gyro_stddev_y = 0.0
+  noise_accel_stddev_z = 0.0
+  noise_gyro_bias_x = 0.0
+  noise_gyro_bias_y = 0.0
+  noise_gyro_bias_z = 0.0
+ Create 53: sensor.camera.dvs (5) at (516.372, 13096.5, 274.055)
+  role_name = front
+  chromatic_aberration_offset = 0.0
+  sensor_tick = 0.0
+  fstop = 1.4
+  image_size_x = 1280
+  image_size_y = 720
+  fov = 90.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  exposure_compensation = 0.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  refractory_period_ns = 0
+  negative_threshold = 0.3
+  positive_threshold = 0.3
+  exposure_mode = histogram
+  lens_kcube = 0.0
+  sigma_negative_threshold = 0.0
+  sigma_positive_threshold = 0.0
+  lens_x_size = 0.08
+  exposure_max_bright = 12.0
+  shutter_speed = 200.0
+  bloom_intensity = 0.675
+  iso = 100.0
+  enable_postprocess_effects = true
+  gamma = 2.2
+  motion_blur_intensity = 0.45
+  motion_blur_max_distortion = 0.35
+  lens_flare_intensity = 0.1
+  motion_blur_min_object_screen_size = 0.1
+  log_eps = 0.001
+  exposure_min_bright = 10.0
+  exposure_speed_up = 3.0
+  exposure_speed_down = 1.0
+  tint = 0.0
+  calibration_constant = 16.0
+  focal_distance = 1000.0
+  min_fstop = 1.2
+  blade_count = 5
+  blur_amount = 1.0
+  blur_radius = 0.0
+  slope = 0.88
+  toe = 0.55
+  white_clip = 0.04
+  shoulder = 0.26
+  black_clip = 0.0
+  temp = 6500.0
+  chromatic_aberration_intensity = 0.0
+  use_log = True
+ Create 34: sensor.camera.rgb (5) at (-18.3795, 13173.7, 158.587)
+  role_name = front
+  chromatic_aberration_offset = 0.0
+  sensor_tick = 0.0
+  fstop = 1.4
+  image_size_x = 1280
+  image_size_y = 720
+  fov = 90.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  exposure_compensation = 0.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  exposure_mode = histogram
+  lens_kcube = 0.0
+  lens_x_size = 0.08
+  exposure_max_bright = 12.0
+  shutter_speed = 200.0
+  bloom_intensity = 0.675
+  iso = 100.0
+  enable_postprocess_effects = true
+  gamma = 2.2
+  motion_blur_intensity = 0.45
+  motion_blur_max_distortion = 0.35
+  lens_flare_intensity = 0.1
+  motion_blur_min_object_screen_size = 0.1
+  exposure_min_bright = 10.0
+  exposure_speed_up = 3.0
+  exposure_speed_down = 1.0
+  tint = 0.0
+  calibration_constant = 16.0
+  focal_distance = 1000.0
+  min_fstop = 1.2
+  blade_count = 5
+  blur_amount = 1.0
+  blur_radius = 0.0
+  slope = 0.88
+  toe = 0.55
+  white_clip = 0.04
+  shoulder = 0.26
+  black_clip = 0.0
+  temp = 6500.0
+  chromatic_aberration_intensity = 0.0
+ Create 35: sensor.camera.rgb (5) at (-22.7801, 13061.4, 158.587)
+  role_name = front
+  chromatic_aberration_offset = 0.0
+  sensor_tick = 0.0
+  fstop = 1.4
+  image_size_x = 1280
+  image_size_y = 720
+  fov = 90.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  exposure_compensation = 0.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  exposure_mode = histogram
+  lens_kcube = 0.0
+  lens_x_size = 0.08
+  exposure_max_bright = 12.0
+  shutter_speed = 200.0
+  bloom_intensity = 0.675
+  iso = 100.0
+  enable_postprocess_effects = true
+  gamma = 2.2
+  motion_blur_intensity = 0.45
+  motion_blur_max_distortion = 0.35
+  lens_flare_intensity = 0.1
+  motion_blur_min_object_screen_size = 0.1
+  exposure_min_bright = 10.0
+  exposure_speed_up = 3.0
+  exposure_speed_down = 1.0
+  tint = 0.0
+  calibration_constant = 16.0
+  focal_distance = 1000.0
+  min_fstop = 1.2
+  blade_count = 5
+  blur_amount = 1.0
+  blur_radius = 0.0
+  slope = 0.88
+  toe = 0.55
+  white_clip = 0.04
+  shoulder = 0.26
+  black_clip = 0.0
+  temp = 6500.0
+  chromatic_aberration_intensity = 0.0
+ Create 43: sensor.lidar.ray_cast (5) at (-18.3795, 13173.7, 158.587)
+  atmosphere_attenuation_rate = 0.004
+  role_name = front
+  sensor_tick = 0.0
+  channels = 32
+  range = 50
+  points_per_second = 56000
+  lower_fov = -30.0
+  rotation_frequency = 10.0
+  noise_seed = 0
+  upper_fov = 10.0
+  horizontal_fov = 360.0
+  dropoff_general_rate = 0.45
+  dropoff_intensity_limit = 0.8
+  noise_stddev = 0.0
+  dropoff_zero_intensity = 0.4
+ Create 37: sensor.camera.rgb (5) at (-277.329, 13127.6, 158.587)
+  role_name = front
+  chromatic_aberration_offset = 0.0
+  sensor_tick = 0.0
+  fstop = 1.4
+  image_size_x = 1280
+  image_size_y = 720
+  fov = 90.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  exposure_compensation = 0.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  exposure_mode = histogram
+  lens_kcube = 0.0
+  lens_x_size = 0.08
+  exposure_max_bright = 12.0
+  shutter_speed = 200.0
+  bloom_intensity = 0.675
+  iso = 100.0
+  enable_postprocess_effects = true
+  gamma = 2.2
+  motion_blur_intensity = 0.45
+  motion_blur_max_distortion = 0.35
+  lens_flare_intensity = 0.1
+  motion_blur_min_object_screen_size = 0.1
+  exposure_min_bright = 10.0
+  exposure_speed_up = 3.0
+  exposure_speed_down = 1.0
+  tint = 0.0
+  calibration_constant = 16.0
+  focal_distance = 1000.0
+  min_fstop = 1.2
+  blade_count = 5
+  blur_amount = 1.0
+  blur_radius = 0.0
+  slope = 0.88
+  toe = 0.55
+  white_clip = 0.04
+  shoulder = 0.26
+  black_clip = 0.0
+  temp = 6500.0
+  chromatic_aberration_intensity = 0.0
+ Create 46: sensor.camera.depth (5) at (-22.7801, 13061.4, 158.587)
+  image_size_x = 1280
+  role_name = front
+  sensor_tick = 0.0
+  lens_x_size = 0.08
+  image_size_y = 720
+  fov = 90.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  lens_kcube = 0.0
+ Create 49: sensor.camera.depth (5) at (-18.3795, 13173.7, 158.587)
+  image_size_x = 1280
+  role_name = front
+  sensor_tick = 0.0
+  lens_x_size = 0.08
+  image_size_y = 720
+  fov = 90.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  lens_kcube = 0.0
+ Create 54: vehicle.mercedes.coupe_2020 (1) at (-75.0645, 2461.32, -0.134178)
+  role_name = hero
+  color = 73,0,0
+  sticky_control = true
+  object_type = 
+  generation = 2
+  number_of_wheels = 4
+ Create 55: sensor.other.collision (5) at (-75.0645, 2461.32, -0.134178)
+  role_name = front
+ Create 56: sensor.other.lane_invasion (5) at (-75.0645, 2461.32, -0.134178)
+  role_name = front
+ Create 57: sensor.other.gnss (5) at (24.7264, 2461.61, 279.94)
+  role_name = default
+  noise_lon_bias = 0.0
+  sensor_tick = 0.0
+  noise_seed = 0
+  noise_lat_stddev = 0.0
+  noise_lat_bias = 0.0
+  noise_lon_stddev = 0.0
+  noise_alt_stddev = 0.0
+  noise_alt_bias = 0.0
+ Create 58: sensor.other.imu (5) at (-75.0645, 2461.32, -0.134178)
+  noise_gyro_stddev_x = 0.0
+  role_name = default
+  sensor_tick = 0.0
+  noise_seed = 0
+  noise_accel_stddev_x = 0.0
+  noise_gyro_stddev_z = 0.0
+  noise_accel_stddev_y = 0.0
+  noise_gyro_stddev_y = 0.0
+  noise_accel_stddev_z = 0.0
+  noise_gyro_bias_x = 0.0
+  noise_gyro_bias_y = 0.0
+  noise_gyro_bias_z = 0.0
+ Create 60: sensor.camera.dvs (5) at (-642.426, 2459.65, 274.06)
+  role_name = front
+  chromatic_aberration_offset = 0.0
+  sensor_tick = 0.0
+  fstop = 1.4
+  image_size_x = 1280
+  image_size_y = 720
+  fov = 90.0
+  lens_circle_falloff = 5.0
+  lens_circle_multiplier = 0.0
+  exposure_compensation = 0.0
+  lens_y_size = 0.08
+  lens_k = -1.0
+  refractory_period_ns = 0
+  negative_threshold = 0.3
+  positive_threshold = 0.3
+  exposure_mode = histogram
+  lens_kcube = 0.0
+  sigma_negative_threshold = 0.0
+  sigma_positive_threshold = 0.0
+  lens_x_size = 0.08
+  exposure_max_bright = 12.0
+  shutter_speed = 200.0
+  bloom_intensity = 0.675
+  iso = 100.0
+  enable_postprocess_effects = true
+  gamma = 2.2
+  motion_blur_intensity = 0.45
+  motion_blur_max_distortion = 0.35
+  lens_flare_intensity = 0.1
+  motion_blur_min_object_screen_size = 0.1
+  log_eps = 0.001
+  exposure_min_bright = 10.0
+  exposure_speed_up = 3.0
+  exposure_speed_down = 1.0
+  tint = 0.0
+  calibration_constant = 16.0
+  focal_distance = 1000.0
+  min_fstop = 1.2
+  blade_count = 5
+  blur_amount = 1.0
+  blur_radius = 0.0
+  slope = 0.88
+  toe = 0.55
+  white_clip = 0.04
+  shoulder = 0.26
+  black_clip = 0.0
+  temp = 6500.0
+  chromatic_aberration_intensity = 0.0
+  use_log = True
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (-65.3447, 2461.37, -0.118176) Rotation (-0.000732422, 0.161869, 0.19877)
+ State traffic lights: 15
+  Id: 9 state: 0 frozen: 0 elapsedTime: 0
+  Id: 10 state: 0 frozen: 0 elapsedTime: 1.14821
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 0 frozen: 0 elapsedTime: 0
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 4.55044
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 1.14821
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 0 frozen: 0 elapsedTime: 0
+  Id: 20 state: 0 frozen: 0 elapsedTime: 1.14821
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 0 frozen: 0 elapsedTime: 0
+  Id: 23 state: 0 frozen: 0 elapsedTime: 1.14821
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (6.53866e-08, -5.08278e-08, -9.91821e-07) angular_velocity: (2.4554e-05, 3.10191e-05, -5.42564e-09)
+  Id: 54 linear_velocity: (1.29825, 0.0058539, 2.13718e-05) angular_velocity: (0.0125941, -0.90073, 0.472276)
+ Actor bounding boxes: 19
+  Id: 1 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 24 origin: (-0.259285, 3.24845e-06, 72.0362) extension: (233.682, 90.5906, 72.0974)
+  Id: 25 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 26 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 27 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 28 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 53 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 34 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 35 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 43 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 37 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 46 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 49 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 54 origin: (-0.259355, -1.17984e-05, 72.0362) extension: (233.682, 90.5906, 72.0974)
+  Id: 55 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 56 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 57 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 58 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+  Id: 60 origin: (-nan(ind), -nan(ind), -nan(ind)) extension: (-inf, -inf, -inf)
+ Actor trigger volumes: 1
+  Id: 6 origin: (4315, 6645, 32) extension: (1400, 1120, 32)
+ Current platform time: 0.210051
+ Physics Control events: 2
+  Id: 24
+   max_rpm = 7500
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.473
+   mass = 1630
+   drag_coefficient = 0.3
+   center_of_mass = (0.1, 0, -0.2)
+   torque_curve = (1000, 374) (1500, 630) (3000, 630) (5000, 374)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.35 down_ratio 0.2 up_ratio 0.4
+    gear 1: ratio 3.24 down_ratio 0.17 up_ratio 0.4
+    gear 2: ratio 2.25 down_ratio 0.2 up_ratio 0.4
+    gear 3: ratio 1.64 down_ratio 0.2 up_ratio 0.4
+    gear 4: ratio 1.21 down_ratio 0.2 up_ratio 0.4
+    gear 5: ratio 1 down_ratio 0.2 up_ratio 0.4
+    gear 6: ratio 0.86 down_ratio 0.2 up_ratio 0.4
+    gear 7: ratio 0.72 down_ratio 0.2 up_ratio 0.4
+    gear 8: ratio 0.6 down_ratio 0.2 up_ratio 0.4
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.25 max_brake_torque 800 max_handbrake_torque 0 position (-201.901, 13204.9, 34.2134)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.25 max_brake_torque 800 max_handbrake_torque 0 position (-208.155, 13045.2, 34.2134)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.25 max_brake_torque 800 max_handbrake_torque 1600 position (81.1358, 13193.8, 34.2135)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.25 max_brake_torque 800 max_handbrake_torque 1600 position (74.8817, 13034.1, 34.2135)
+  Id: 54
+   max_rpm = 7500
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.473
+   mass = 1630
+   drag_coefficient = 0.3
+   center_of_mass = (0.1, 0, -0.2)
+   torque_curve = (1000, 374) (1500, 630) (3000, 630) (5000, 374)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.35 down_ratio 0.2 up_ratio 0.4
+    gear 1: ratio 3.24 down_ratio 0.17 up_ratio 0.4
+    gear 2: ratio 2.25 down_ratio 0.2 up_ratio 0.4
+    gear 3: ratio 1.64 down_ratio 0.2 up_ratio 0.4
+    gear 4: ratio 1.21 down_ratio 0.2 up_ratio 0.4
+    gear 5: ratio 1 down_ratio 0.2 up_ratio 0.4
+    gear 6: ratio 0.86 down_ratio 0.2 up_ratio 0.4
+    gear 7: ratio 0.72 down_ratio 0.2 up_ratio 0.4
+    gear 8: ratio 0.6 down_ratio 0.2 up_ratio 0.4
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.25 max_brake_torque 800 max_handbrake_torque 0 position (79.2817, 2381.57, 34.2236)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.25 max_brake_torque 800 max_handbrake_torque 0 position (78.8244, 2541.42, 34.2238)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.25 max_brake_torque 800 max_handbrake_torque 1600 position (-203.971, 2380.76, 34.2059)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.25 max_brake_torque 800 max_handbrake_torque 1600 position (-204.429, 2540.61, 34.2062)
+ Traffic Light time events: 15
+  Id: 9 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 10 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 11 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 12 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 13 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 14 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 15 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 16 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 17 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 18 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 19 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 20 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 21 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 22 green_time: 10 yellow_time: 3 red_time: 2
+  Id: 23 green_time: 10 yellow_time: 3 red_time: 2
+Frame 2 at 0.211863 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (-49.9215, 2461.43, -0.114399) Rotation (-3.05176e-05, 0.18977, 0.201773)
+ State traffic lights: 15
+  Id: 9 state: 0 frozen: 0 elapsedTime: 0
+  Id: 10 state: 0 frozen: 0 elapsedTime: 1.36007
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 0 frozen: 0 elapsedTime: 0
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 4.7623
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 1.36007
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 0 frozen: 0 elapsedTime: 0
+  Id: 20 state: 0 frozen: 0 elapsedTime: 1.36007
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 0 frozen: 0 elapsedTime: 0
+  Id: 23 state: 0 frozen: 0 elapsedTime: 1.36007
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (4.48089e-08, -6.90536e-08, -1.02043e-06) angular_velocity: (1.74779e-05, 2.16846e-05, -3.80436e-09)
+  Id: 54 linear_velocity: (1.76394, 0.00596305, -1.93596e-06) angular_velocity: (-0.0222749, -0.100724, -0.558944)
+ Actor bounding boxes: 0
+ Current platform time: 0.454311
+Frame 3 at 0.455671 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (-28.6757, 2461.51, -0.111534) Rotation (0.000214457, 0.21151, 0.197341)
+ State traffic lights: 15
+  Id: 9 state: 0 frozen: 0 elapsedTime: 0
+  Id: 10 state: 0 frozen: 0 elapsedTime: 1.60388
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 0 frozen: 0 elapsedTime: 0
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 5.00611
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 1.60388
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 0 frozen: 0 elapsedTime: 0
+  Id: 20 state: 0 frozen: 0 elapsedTime: 1.60388
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 0 frozen: 0 elapsedTime: 0
+  Id: 23 state: 0 frozen: 0 elapsedTime: 1.60388
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (8.64067e-09, -1.87301e-07, -7.62939e-07) angular_velocity: (9.50037e-05, 3.9967e-06, 1.11993e-08)
+  Id: 54 linear_velocity: (2.39848, 0.00822767, -2.72751e-06) angular_velocity: (-0.00288381, -0.191006, -0.0833255)
+ Actor bounding boxes: 0
+ Current platform time: 0.712663
+Frame 4 at 0.713838 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (-0.151731, 2461.61, -0.10603) Rotation (0.00017587, 0.252526, 0.198745)
+ State traffic lights: 15
+  Id: 9 state: 0 frozen: 0 elapsedTime: 0
+  Id: 10 state: 0 frozen: 0 elapsedTime: 1.86205
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 0 frozen: 0 elapsedTime: 0
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 5.26428
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 1.86205
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 0 frozen: 0 elapsedTime: 0
+  Id: 20 state: 0 frozen: 0 elapsedTime: 1.86205
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 0 frozen: 0 elapsedTime: 0
+  Id: 23 state: 0 frozen: 0 elapsedTime: 1.86205
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (-1.2949e-08, -2.17963e-08, -1.52588e-07) angular_velocity: (4.18714e-09, -5.74996e-06, 8.60522e-09)
+  Id: 54 linear_velocity: (3.23719, 0.0112218, 9.76562e-06) angular_velocity: (0.0016478, -0.47971, 0.0199365)
+ Actor bounding boxes: 0
+ Current platform time: 0.970369
+Frame 5 at 0.971647 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (36.6434, 2461.73, -0.101852) Rotation (0.000172032, 0.283815, 0.200784)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 0
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 0
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 5.52209
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 0
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 0
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 54 linear_velocity: (4.02384, 0.0140766, 1.49727e-06) angular_velocity: (0.000901826, -0.177547, 0.0208105)
+ Actor bounding boxes: 0
+ Current platform time: 1.22306
+Frame 6 at 1.22438 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (80.9552, 2461.89, -0.100784) Rotation (8.85923e-05, 0.291806, 0.202954)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 0.252728
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 0.252728
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 5.77482
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 0.252728
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 0.252728
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (-3.85545e-08, 1.14686e-07, 8.01086e-07) angular_velocity: (-4.86381e-05, -1.84261e-05, 4.62569e-10)
+  Id: 54 linear_velocity: (4.75932, 0.0168059, 4.78745e-06) angular_velocity: (0.0008914, -0.0245449, 0.0225519)
+ Actor bounding boxes: 0
+ Current platform time: 1.48856
+Frame 7 at 1.48969 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (132.508, 2462.07, -0.0738869) Rotation (2.71334e-05, 0.29126, 0.205223)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 0.518047
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 0.518047
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 6.04014
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 0.518047
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 0.518047
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (2.32835e-08, -4.64852e-08, 1.33514e-07) angular_velocity: (2.40065e-05, 1.10323e-05, 8.79487e-10)
+  Id: 54 linear_velocity: (5.47391, 0.0195313, 0.00241244) angular_velocity: (-1.18634e-05, 0.0359491, 0.0115102)
+ Actor bounding boxes: 0
+ Current platform time: 1.75385
+Frame 8 at 1.75499 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (188.248, 2462.27, -0.0787773) Rotation (-3.05176e-05, 0.218723, 0.206767)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 0.783346
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 0.783346
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 6.30544
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 0.783346
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 0.783346
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (8.54358e-09, 2.18227e-08, 2.67029e-07) angular_velocity: (-1.34451e-05, 4.33698e-06, 7.92421e-09)
+  Id: 54 linear_velocity: (5.66327, 0.0203632, -0.000353746) angular_velocity: (-0.00279437, 0.681549, -0.00731003)
+ Actor bounding boxes: 0
+ Current platform time: 2.02154
+Frame 9 at 2.02276 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (244.322, 2462.48, -0.0960197) Rotation (-6.10351e-05, 0.128005, 0.207194)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 1.05111
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 1.05111
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 6.5732
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 1.05111
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 1.05111
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 1 Brake 0 Handbrake: 0 Gear: 0
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (3.28359e-08, 1.26095e-07, -3.8147e-08) angular_velocity: (-5.25246e-05, 1.52961e-05, -1.10519e-08)
+  Id: 54 linear_velocity: (5.62349, 0.0202978, -0.000536194) angular_velocity: (-0.00270124, 0.66063, 0.00474087)
+ Actor bounding boxes: 0
+ Current platform time: 2.29165
+Frame 10 at 2.29311 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (305.883, 2462.7, -0.0900803) Rotation (-6.10351e-05, 0.206367, 0.20996)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 1.32146
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 1.32146
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 6.84355
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 1.32146
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 1.32146
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 0 Brake 0 Handbrake: 0 Gear: 0
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (-1.78873e-08, 5.37123e-08, 2.09808e-07) angular_velocity: (-1.31118e-05, -9.12848e-06, -1.06573e-08)
+  Id: 54 linear_velocity: (6.64512, 0.0242153, -0.000364161) angular_velocity: (0.00351451, -1.04335, 0.0207989)
+ Actor bounding boxes: 0
+ Current platform time: 2.56703
+Frame 11 at 2.56836 seconds
+ Positions: 3
+  Id: 1 Location: (-17219.7, 18385.9, 2763.81) Rotation (0, 0, -45.5921)
+  Id: 24 Location: (-50.5566, 13118.7, -0.139299) Rotation (1.01778e-13, -6.14717e-05, 177.758)
+  Id: 54 Location: (374.379, 2462.95, -0.0939026) Rotation (0.000381383, 0.198226, 0.191031)
+ State traffic lights: 15
+  Id: 9 state: 2 frozen: 0 elapsedTime: 1.59671
+  Id: 10 state: 0 frozen: 0 elapsedTime: 0
+  Id: 11 state: 0 frozen: 0 elapsedTime: 0
+  Id: 12 state: 2 frozen: 0 elapsedTime: 1.59671
+  Id: 13 state: 0 frozen: 0 elapsedTime: 0
+  Id: 14 state: 2 frozen: 0 elapsedTime: 7.1188
+  Id: 15 state: 0 frozen: 0 elapsedTime: 0
+  Id: 16 state: 0 frozen: 0 elapsedTime: 0
+  Id: 17 state: 0 frozen: 0 elapsedTime: 0
+  Id: 18 state: 0 frozen: 0 elapsedTime: 0
+  Id: 19 state: 2 frozen: 0 elapsedTime: 1.59671
+  Id: 20 state: 0 frozen: 0 elapsedTime: 0
+  Id: 21 state: 0 frozen: 0 elapsedTime: 0
+  Id: 22 state: 2 frozen: 0 elapsedTime: 1.59671
+  Id: 23 state: 0 frozen: 0 elapsedTime: 0
+ Vehicle animations: 2
+  Id: 24 Steering: -0.001545 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 54 Steering: 0 Throttle: 0 Brake 0 Handbrake: 0 Gear: 2
+ Walker animations: 0
+ Vehicle light animations: 2
+  Id: 24 None
+  Id: 54 None
+ Dynamic actors: 2
+  Id: 24 linear_velocity: (-1.867e-08, 2.55912e-08, -1.14441e-07) angular_velocity: (-1.39432e-05, -8.86329e-06, -2.34216e-11)
+  Id: 54 linear_velocity: (6.87398, 0.0252481, -0.000208969) angular_velocity: (-0.0591503, 0.888379, -3.77786)
+ Actor bounding boxes: 0
+ Current platform time: 2.82305
+
+Frames: 11
+Duration: 2.56836 seconds
